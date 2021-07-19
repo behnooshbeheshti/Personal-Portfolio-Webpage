@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+#welcome-section p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: red;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: darkgray;
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project {
+  background: gray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+img {
+  display: block;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  padding: 2rem 0.5rem;
+  text-align: center;
+}
+
+.code {
+  color: gray;
+  transition: solid 0.3s ease-out;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: gray;
+  transition: solid 0.3s ease-out;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: gray;
+  background-color: whitesmoke;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: gray;
+}
+
+.contact-section-header h2 {
+  font-size: 6rem;
+}
+
+.contact-section-header p {
+  font-style: italic;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 1.4rem;
+
+  transition: solid 0.3s ease-out;
+}
